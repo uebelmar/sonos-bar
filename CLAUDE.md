@@ -16,6 +16,8 @@ Overview, feature list and build steps: `README.md`. This file holds the non-obv
   notarizes + staples the DMG and the app. `scripts/install.sh` → /Applications + autostart.
 - App icon is our own design (never the Sonos logo): `swift scripts/make-icon.swift docs/icon.png`, then
   regenerate `SonosBar/Assets.xcassets/AppIcon.appiconset` with `sips -z` (16–512 pt, @1x/@2x).
+- Author is **Markus Übeleis** (README, LICENSE, `NSHumanReadableCopyright`). Gatekeeper's "developer" comes from the
+  signing cert and stays *flinkest FlexCo* – changing it needs a personal Apple Developer Program team.
 - In zsh, `log` is a shell builtin – use `/usr/bin/log show --predicate 'subsystem == "at.uebeleis.sonosbar"' --info`.
 
 ## macOS gotchas

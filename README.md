@@ -4,6 +4,8 @@
 
 Native macOS-Menüleisten-App (Swift/SwiftUI) zur Steuerung eines Sonos-Systems – direkt im lokalen Netzwerk, ohne Sonos-Konto, ohne Cloud.
 
+Entwickelt von **Markus Übeleis**.
+
 <p>
   <img src="docs/screenshot-youtube.png" width="380" alt="YouTube-Music-Tab mit Cover-Karten">
   <img src="docs/screenshot-rooms.png" width="380" alt="Räume mit Gruppen-Lautstärke">
@@ -13,7 +15,7 @@ Native macOS-Menüleisten-App (Swift/SwiftUI) zur Steuerung eines Sonos-Systems 
 
 **[→ Neueste Version (DMG)](https://github.com/uebelmar/sonos-bar/releases/latest)**
 
-DMG öffnen, `SonosBar` in den Ordner *Programme* ziehen, starten. Die App ist mit Developer ID signiert und von Apple notarisiert.
+DMG öffnen, `SonosBar` in den Ordner *Programme* ziehen, starten. Die App ist mit Developer ID signiert (Team *flinkest FlexCo*) und von Apple notarisiert.
 Beim ersten Start fragt macOS nach **Zugriff auf das lokale Netzwerk** – erlauben, sonst findet die App keine Lautsprecher
 (nachträglich: *Systemeinstellungen → Datenschutz & Sicherheit → Lokales Netzwerk*).
 
@@ -100,4 +102,4 @@ Wer selbst baut, ersetzt in `project.yml` und `scripts/ExportOptions.plist` die 
 
 ## Lizenz
 
-MIT – siehe [LICENSE](LICENSE). Nicht mit Sonos, Inc. oder Google verbunden; „Sonos“ und „YouTube Music“ sind Marken ihrer Inhaber.
+MIT © 2026 Markus Übeleis – siehe [LICENSE](LICENSE). Nicht mit Sonos, Inc. oder Google verbunden; „Sonos“ und „YouTube Music“ sind Marken ihrer Inhaber.

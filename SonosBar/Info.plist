@@ -20,22 +20,24 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.music</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>LSUIElement</key>
 	<true/>
-	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.music</string>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>SonosBar steuert deine Sonos-Lautsprecher im lokalen Netzwerk.</string>
-	<key>NSBonjourServices</key>
-	<array>
-		<string>_sonos._tcp</string>
-	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_sonos._tcp</string>
+	</array>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Markus Übeleis</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>SonosBar steuert deine Sonos-Lautsprecher im lokalen Netzwerk.</string>
 </dict>
 </plist>
