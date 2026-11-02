@@ -208,7 +208,7 @@ struct GroupVolumeSlider: View {
 
 /// Small −/+ button next to a volume slider; holding it repeats.
 struct VolumeStepButton: View {
-    static let step = 2
+    static let step = 1
 
     let systemImage: String
     let action: () -> Void
